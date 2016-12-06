@@ -1,0 +1,156 @@
+[submodule "PkgConfig"]
+	path = PkgConfig
+	url = https://github.com/libertine-linux-packages/PkgConfig.git
+[submodule "acl"]
+	path = acl
+	url = https://github.com/libertine-linux-packages/acl.git
+[submodule "attr"]
+	path = attr
+	url = https://github.com/libertine-linux-packages/attr.git
+[submodule "audit_userspace"]
+	path = audit_userspace
+	url = https://github.com/libertine-linux-packages/audit_userspace.git
+[submodule "autoconf"]
+	path = autoconf
+	url = https://github.com/libertine-linux-packages/autoconf.git
+[submodule "automake"]
+	path = automake
+	url = https://github.com/libertine-linux-packages/automake.git
+[submodule "bash"]
+	path = bash
+	url = https://github.com/libertine-linux-packages/bash.git
+[submodule "bc"]
+	path = bc
+	url = https://github.com/libertine-linux-packages/bc.git
+[submodule "binutils"]
+	path = binutils
+	url = https://github.com/libertine-linux-packages/binutils.git
+[submodule "bison"]
+	path = bison
+	url = https://github.com/libertine-linux-packages/bison.git
+[submodule "libtool"]
+	path = libtool
+	url = https://github.com/libertine-linux-packages/libtool.git
+[submodule "busybox"]
+	path = busybox
+	url = http://github.com/libertine-linux-packages/busybox.git
+[submodule "ccache"]
+	path = ccache
+	url = https://github.com/libertine-linux-packages/ccache.git
+[submodule "curl"]
+	path = curl
+	url = https://github.com/libertine-linux-packages/curl.git
+[submodule "dnsmasq"]
+	path = dnsmasq
+	url = https://github.com/libertine-linux-packages/dnsmasq.git
+[submodule "file"]
+	path = file
+	url = https://github.com/libertine-linux-packages/file.git
+[submodule "flex"]
+	path = flex
+	url = https://github.com/libertine-linux-packages/flex.git
+[submodule "fortify_headers"]
+	path = fortify_headers
+	url = https://github.com/libertine-linux-packages/fortify_headers.git
+[submodule "gnuconfig"]
+	path = gnuconfig
+	url = https://github.com/libertine-linux-packages/gnuconfig.git
+[submodule "gmp"]
+	path = gmp
+	url = https://github.com/libertine-linux-packages/gmp.git
+[submodule "gnulib"]
+	path = gnulib
+	url = https://github.com/libertine-linux-packages/gnulib.git
+[submodule "gcc"]
+	path = gcc
+	url = https://github.com/libertine-linux-packages/gcc.git
+[submodule "gnum4"]
+	path = gnum4
+	url = https://github.com/libertine-linux-packages/gnum4.git
+[submodule "gnumake"]
+	path = gnumake
+	url = https://github.com/libertine-linux-packages/gnumake.git
+[submodule "kbd"]
+	path = kbd
+	url = https://github.com/libertine-linux-packages/kbd.git
+[submodule "kexec_tools"]
+	path = kexec_tools
+	url = https://github.com/libertine-linux-packages/kexec_tools.git
+[submodule "isl"]
+	path = isl
+	url = https://github.com/libertine-linux-packages/isl.git
+[submodule "libcap"]
+	path = libcap
+	url = https://github.com/libertine-linux-packages/libcap.git
+[submodule "libidn"]
+	path = libidn
+	url = https://github.com/libertine-linux-packages/libidn.git
+[submodule "libtirpc"]
+	path = libtirpc
+	url = https://github.com/libertine-linux-packages/libtirpc.git
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/libertine-linux-packages/zlib.git
+[submodule "xz_utils"]
+	path = xz_utils
+	url = https://github.com/libertine-linux-packages/xz_utils.git
+[submodule "sudo"]
+	path = sudo
+	url = https://github.com/libertine-linux-packages/sudo.git
+[submodule "rsync"]
+	path = rsync
+	url = https://github.com/libertine-linux-packages/rsync.git
+[submodule "pkg_config"]
+	path = pkg_config
+	url = https://github.com/libertine-linux-packages/pkg_config.git
+[submodule "nettle"]
+	path = nettle
+	url = https://github.com/libertine-linux-packages/nettle.git
+[submodule "openssh"]
+	path = openssh
+	url = https://github.com/libertine-linux-packages/openssh.git
+[submodule "musl_ldconfig"]
+	path = musl_ldconfig
+	url = https://github.com/libertine-linux-packages/musl_ldconfig.git
+[submodule "mpc"]
+	path = mpc
+	url = https://github.com/libertine-linux-packages/mpc.git
+[submodule "mpfr"]
+	path = mpfr
+	url = https://github.com/libertine-linux-packages/mpfr.git
+[submodule "tz"]
+	path = tz
+	url = https://github.com/libertine-linux-packages/tz.git
+[submodule "luajit"]
+	path = luajit
+	url = https://github.com/libertine-linux-packages/luajit.git
+[submodule "slibtool"]
+	path = slibtool
+	url = https://github.com/libertine-linux-packages/slibtool.git
+[submodule "musl"]
+	path = musl
+	url = https://github.com/libertine-linux-packages/musl.git
+[submodule "libressl"]
+	path = libressl
+	url = https://github.com/libertine-linux-packages/libressl.git
+[submodule "perl"]
+	path = perl
+	url = https://github.com/libertine-linux-packages/perl.git
+[submodule "musl_cross_make"]
+	path = musl_cross_make
+	url = https://github.com/libertine-linux-packages/musl_cross_make.git
+[submodule "netbsd_src"]
+	path = netbsd_src
+	url = https://github.com/libertine-linux-packages/netbsd_src.git
+[submodule "libertine_filesystem_hosts"]
+	path = libertine_filesystem_hosts
+	url = https://github.com/libertine-linux-packages/libertine_filesystem_hosts.git
+[submodule "libertine_filesystem_root_password"]
+	path = libertine_filesystem_root_password
+	url = https://github.com/libertine-linux-packages/libertine_filesystem_root_password.git
+[submodule "libertine_filesystem"]
+	path = libertine_filesystem
+	url = https://github.com/libertine-linux-packages/libertine_filesystem.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/libertine-linux-packages/linux.git
