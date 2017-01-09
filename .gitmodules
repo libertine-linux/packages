@@ -1,162 +1,216 @@
 [submodule "PkgConfig"]
 	path = PkgConfig
 	url = https://github.com/libertine-linux-packages/PkgConfig.git
+	branch = master
 [submodule "acl"]
 	path = acl
 	url = https://github.com/libertine-linux-packages/acl.git
+	branch = master
 [submodule "attr"]
 	path = attr
 	url = https://github.com/libertine-linux-packages/attr.git
+	branch = master
 [submodule "audit_userspace"]
 	path = audit_userspace
 	url = https://github.com/libertine-linux-packages/audit_userspace.git
+	branch = master
 [submodule "autoconf"]
 	path = autoconf
 	url = https://github.com/libertine-linux-packages/autoconf.git
+	branch = master
 [submodule "automake"]
 	path = automake
 	url = https://github.com/libertine-linux-packages/automake.git
+	branch = master
 [submodule "bash"]
 	path = bash
 	url = https://github.com/libertine-linux-packages/bash.git
+	branch = master
 [submodule "bc"]
 	path = bc
 	url = https://github.com/libertine-linux-packages/bc.git
+	branch = master
 [submodule "binutils"]
 	path = binutils
 	url = https://github.com/libertine-linux-packages/binutils.git
+	branch = master
 [submodule "bison"]
 	path = bison
 	url = https://github.com/libertine-linux-packages/bison.git
+	branch = master
 [submodule "libtool"]
 	path = libtool
 	url = https://github.com/libertine-linux-packages/libtool.git
+	branch = master
 [submodule "busybox"]
 	path = busybox
 	url = http://github.com/libertine-linux-packages/busybox.git
+	branch = master
 [submodule "ccache"]
 	path = ccache
 	url = https://github.com/libertine-linux-packages/ccache.git
+	branch = master
 [submodule "curl"]
 	path = curl
 	url = https://github.com/libertine-linux-packages/curl.git
+	branch = master
 [submodule "dnsmasq"]
 	path = dnsmasq
 	url = https://github.com/libertine-linux-packages/dnsmasq.git
+	branch = master
 [submodule "file"]
 	path = file
 	url = https://github.com/libertine-linux-packages/file.git
+	branch = master
 [submodule "flex"]
 	path = flex
 	url = https://github.com/libertine-linux-packages/flex.git
+	branch = master
 [submodule "fortify_headers"]
 	path = fortify_headers
 	url = https://github.com/libertine-linux-packages/fortify_headers.git
+	branch = master
 [submodule "gnuconfig"]
 	path = gnuconfig
 	url = https://github.com/libertine-linux-packages/gnuconfig.git
+	branch = master
 [submodule "gmp"]
 	path = gmp
 	url = https://github.com/libertine-linux-packages/gmp.git
+	branch = master
 [submodule "gnulib"]
 	path = gnulib
 	url = https://github.com/libertine-linux-packages/gnulib.git
+	branch = master
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/libertine-linux-packages/gcc.git
+	branch = master
 [submodule "gnum4"]
 	path = gnum4
 	url = https://github.com/libertine-linux-packages/gnum4.git
+	branch = master
 [submodule "gnumake"]
 	path = gnumake
 	url = https://github.com/libertine-linux-packages/gnumake.git
+	branch = master
 [submodule "kbd"]
 	path = kbd
 	url = https://github.com/libertine-linux-packages/kbd.git
+	branch = master
 [submodule "kexec_tools"]
 	path = kexec_tools
 	url = https://github.com/libertine-linux-packages/kexec_tools.git
+	branch = master
 [submodule "isl"]
 	path = isl
 	url = https://github.com/libertine-linux-packages/isl.git
+	branch = master
 [submodule "libcap"]
 	path = libcap
 	url = https://github.com/libertine-linux-packages/libcap.git
+	branch = master
 [submodule "libidn"]
 	path = libidn
 	url = https://github.com/libertine-linux-packages/libidn.git
+	branch = master
 [submodule "libtirpc"]
 	path = libtirpc
 	url = https://github.com/libertine-linux-packages/libtirpc.git
+	branch = master
 [submodule "zlib"]
 	path = zlib
 	url = https://github.com/libertine-linux-packages/zlib.git
+	branch = master
 [submodule "xz_utils"]
 	path = xz_utils
 	url = https://github.com/libertine-linux-packages/xz_utils.git
+	branch = master
 [submodule "sudo"]
 	path = sudo
 	url = https://github.com/libertine-linux-packages/sudo.git
+	branch = master
 [submodule "rsync"]
 	path = rsync
 	url = https://github.com/libertine-linux-packages/rsync.git
+	branch = master
 [submodule "pkg_config"]
 	path = pkg_config
 	url = https://github.com/libertine-linux-packages/pkg_config.git
+	branch = master
 [submodule "nettle"]
 	path = nettle
 	url = https://github.com/libertine-linux-packages/nettle.git
+	branch = master
 [submodule "openssh"]
 	path = openssh
 	url = https://github.com/libertine-linux-packages/openssh.git
+	branch = master
 [submodule "musl_ldconfig"]
 	path = musl_ldconfig
 	url = https://github.com/libertine-linux-packages/musl_ldconfig.git
+	branch = master
 [submodule "mpc"]
 	path = mpc
 	url = https://github.com/libertine-linux-packages/mpc.git
+	branch = master
 [submodule "mpfr"]
 	path = mpfr
 	url = https://github.com/libertine-linux-packages/mpfr.git
+	branch = master
 [submodule "tz"]
 	path = tz
 	url = https://github.com/libertine-linux-packages/tz.git
+	branch = master
 [submodule "luajit"]
 	path = luajit
 	url = https://github.com/libertine-linux-packages/luajit.git
+	branch = master
 [submodule "slibtool"]
 	path = slibtool
 	url = https://github.com/libertine-linux-packages/slibtool.git
+	branch = master
 [submodule "musl"]
 	path = musl
 	url = https://github.com/libertine-linux-packages/musl.git
+	branch = master
 [submodule "libressl"]
 	path = libressl
 	url = https://github.com/libertine-linux-packages/libressl.git
+	branch = master
 [submodule "perl"]
 	path = perl
 	url = https://github.com/libertine-linux-packages/perl.git
+	branch = master
 [submodule "musl_cross_make"]
 	path = musl_cross_make
 	url = https://github.com/libertine-linux-packages/musl_cross_make.git
+	branch = master
 [submodule "netbsd_src"]
 	path = netbsd_src
 	url = https://github.com/libertine-linux-packages/netbsd_src.git
+	branch = master
 [submodule "libertine_filesystem_hosts"]
 	path = libertine_filesystem_hosts
 	url = https://github.com/libertine-linux-packages/libertine_filesystem_hosts.git
+	branch = master
 [submodule "libertine_filesystem_root_password"]
 	path = libertine_filesystem_root_password
 	url = https://github.com/libertine-linux-packages/libertine_filesystem_root_password.git
+	branch = master
 [submodule "libertine_filesystem"]
 	path = libertine_filesystem
 	url = https://github.com/libertine-linux-packages/libertine_filesystem.git
+	branch = master
 [submodule "linux"]
 	path = linux
 	url = https://github.com/libertine-linux-packages/linux.git
+	branch = master
 [submodule "util_linux"]
 	path = util_linux
 	url = https://github.com/libertine-linux-packages/util_linux.git
+	branch = master
 [submodule "reflex"]
 	path = reflex
 	url = https://github.com/libertine-linux-packages/reflex.git
+	branch = master
