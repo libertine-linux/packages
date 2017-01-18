@@ -214,3 +214,7 @@
 	path = reflex
 	url = https://github.com/libertine-linux-packages/reflex.git
 	branch = master
+[submodule "cmake"]
+	path = cmake
+	url = https://github.com/libertine-linux-packages/cmake.git
+	branch = master
