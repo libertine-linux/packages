@@ -6,7 +6,7 @@ variant=empty
 
 depends musl_cross_make
 depends libertine_filesystem
-depends busybox busybox_acpid busybox_dnsd busybox_httpd busybox_inotifyd busybox_ntpd busybox_klogd busybox_syslogd busybox_watchdog
+depends busybox busybox_acpid busybox_inotifyd busybox_ntpd busybox_klogd busybox_syslogd busybox_watchdog
 depends attr acl libcap
 depends libressl
 depends kexec_tools

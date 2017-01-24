@@ -19,6 +19,8 @@ depends autoconf
 depends automake
 depends PkgConfig
 
+depends busybox_httpd busybox_dnsd
+
 depends gnum4 netbsd_src_patch netbsd_src_csplit netbsd_src_fmt bash rsync libressl libressl_nc curl luajit dnsmasq openssh
 
 depends audit_userspace_control audit_userspace_daemon audit_userspace_trace audit_userspace_utilities
