@@ -4,13 +4,14 @@
 
 variant=empty
 
-depends musl_cross_make
 depends libertine_filesystem
-depends busybox busybox_acpid busybox_inotifyd busybox_ntpd busybox_klogd busybox_syslogd busybox_watchdog
-depends attr acl libcap
-depends libressl
-depends kexec_tools
+depends busybox
+depends busybox_acpid
+depends busybox_ntpd
+depends busybox_watchdog
 depends audit_userspace_control
+depends libressl
+depends gradm
 
 libertine_compile_00_baseline()
 {

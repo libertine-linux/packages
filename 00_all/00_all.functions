@@ -6,24 +6,34 @@ variant=empty
 
 depends 00_baseline
 
-depends bc
+depends musl_cross_make
 depends musl_ldconfig
+
+depends attr acl libcap
+depends kexec_tools
+depends busybox_klogd busybox_syslogd
+depends busybox_inotifyd
+depends file
+
+depends busybox_httpd
+depends perl
+depends bc
+
 depends gnumake
 depends slibtool
 depends ccache
-depends file
-depends perl
 depends autoconf213
 depends autoconf264
 depends autoconf
 depends automake
 depends PkgConfig
 
-depends busybox_httpd busybox_dnsd
+depends busybox_dnsd
 
-depends gnum4 netbsd_src_patch netbsd_src_csplit netbsd_src_fmt bash rsync libressl libressl_nc curl luajit dnsmasq openssh
+depends gnum4 netbsd_src_patch netbsd_src_csplit netbsd_src_fmt bash rsync libressl_nc curl luajit dnsmasq openssh
 
 depends audit_userspace_control audit_userspace_daemon audit_userspace_trace audit_userspace_utilities
+
 
 libertine_compile_00_all()
 {
