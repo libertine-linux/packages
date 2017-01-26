@@ -230,3 +230,7 @@
 	path = paxctl
 	url = https://github.com/libertine-linux-packages/paxctl.git
 	branch = master
+[submodule "python_2_7"]
+	path = python_2_7
+	url = https://github.com/libertine-linux-packages/python_2_7.git
+	branch = master
