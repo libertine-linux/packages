@@ -238,3 +238,7 @@
 	path = go
 	url = https://github.com/libertine-linux-packages/go.git
 	branch = master
+[submodule "nodejs"]
+	path = nodejs
+	url = https://github.com/libertine-linux-packages/nodejs.git
+	branch = master
