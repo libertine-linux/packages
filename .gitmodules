@@ -234,3 +234,7 @@
 	path = python_2_7
 	url = https://github.com/libertine-linux-packages/python_2_7.git
 	branch = master
+[submodule "go"]
+	path = go
+	url = https://github.com/libertine-linux-packages/go.git
+	branch = master
