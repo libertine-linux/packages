@@ -246,3 +246,7 @@
 	path = expat
 	url = https://github.com/libertine-linux-packages/expat.git
 	branch = master
+[submodule "influxdb"]
+	path = influxdb
+	url = https://github.com/libertine-linux-packages/influxdb.git
+	branch = master
