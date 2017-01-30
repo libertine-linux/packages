@@ -238,3 +238,11 @@
 	path = nodejs
 	url = https://github.com/libertine-linux-packages/nodejs.git
 	branch = master
+[submodule "git"]
+	path = git
+	url = https://github.com/libertine-linux-packages/git.git
+	branch = master
+[submodule "expat"]
+	path = expat
+	url = https://github.com/libertine-linux-packages/expat.git
+	branch = master
