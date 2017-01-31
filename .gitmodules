@@ -262,3 +262,7 @@
 	path = apr/upstream
 	url = https://github.com/apache/apr.git
 	branch = 1.6.x
+[submodule "libpcre"]
+	path = libpcre
+	url = https://github.com/libertine-linux-packages/libpcre.git
+	branch = master
