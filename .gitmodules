@@ -250,3 +250,7 @@
 	path = influxdb
 	url = https://github.com/libertine-linux-packages/influxdb.git
 	branch = master
+[submodule "grafana"]
+	path = grafana
+	url = https://github.com/libertine-linux-packages/grafana.git
+	branch = master
