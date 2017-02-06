@@ -254,10 +254,6 @@
 	path = grafana
 	url = https://github.com/libertine-linux-packages/grafana.git
 	branch = master
-[submodule "libestr/upstream"]
-	path = libestr/upstream
-	url = https://github.com/rsyslog/libestr.git
-	branch = master
 [submodule "apr/upstream"]
 	path = apr/upstream
 	url = https://github.com/apache/apr.git
