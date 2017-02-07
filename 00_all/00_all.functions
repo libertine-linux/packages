@@ -4,6 +4,8 @@
 
 variant=empty
 
+depends build_busybox
+
 depends 00_baseline
 
 depends musl_cross_make
