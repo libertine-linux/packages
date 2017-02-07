@@ -4,13 +4,22 @@
 
 variant=empty
 
+depends build_busybox
+
 depends libertine_filesystem
+
 depends busybox
+
 depends busybox_acpid
+
 depends busybox_ntpd
+
 depends busybox_watchdog
+
 depends audit_userspace_control
+
 depends libressl
+
 depends gradm
 
 libertine_compile_00_baseline()
