@@ -262,3 +262,7 @@
 	path = libpcre
 	url = https://github.com/libertine-linux-packages/libpcre.git
 	branch = master
+[submodule "ReOpenLDAP"]
+	path = ReOpenLDAP
+	url = https://github.com/libertine-linux-packages/ReOpenLDAP.git
+	branch = master
