@@ -220,7 +220,7 @@
 	branch = master
 [submodule "gradm"]
 	path = gradm
-	url = https://libertine-linux-packages/gradm.git
+	url = https://github.com/libertine-linux-packages/gradm.git
 	branch = master
 [submodule "paxctl"]
 	path = paxctl
