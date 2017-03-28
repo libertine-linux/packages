@@ -254,10 +254,6 @@
 	path = grafana
 	url = https://github.com/libertine-linux-packages/grafana.git
 	branch = master
-[submodule "apr/upstream"]
-	path = apr/upstream
-	url = https://github.com/apache/apr.git
-	branch = 1.6.x
 [submodule "libpcre"]
 	path = libpcre
 	url = https://github.com/libertine-linux-packages/libpcre.git
