@@ -266,3 +266,6 @@
 	path = dpdk
 	url = https://github.com/libertine-linux-packages/dpdk.git
 	branch = master
+[submodule "libnuma"]
+	path = libnuma
+	url = https://github.com/libertine-linux-packages/libnuma.git
