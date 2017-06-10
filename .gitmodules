@@ -275,3 +275,9 @@
 [submodule "llvm_4_0"]
 	path = llvm_4_0
 	url = https://github.com/libertine-linux-packages/llvm_4_0.git
+[submodule "rpm"]
+	path = rpm
+	url = https://github.com/libertine-linux-packages/rpm.git
+[submodule "ofed_mellanox"]
+	path = ofed_mellanox
+	url = https://github.com/libertine-linux-packages/ofed_mellanox.git
