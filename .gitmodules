@@ -281,3 +281,7 @@
 [submodule "ofed_mellanox"]
 	path = ofed_mellanox
 	url = https://github.com/libertine-linux-packages/ofed_mellanox.git
+[submodule "ucx"]
+	path = ucx
+	url = https://github.com/libertine-linux-packages/ucx.git
+
