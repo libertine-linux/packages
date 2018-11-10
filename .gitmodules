@@ -285,3 +285,6 @@
 	path = ucx
 	url = https://github.com/libertine-linux-packages/ucx.git
 
+[submodule "nasm"]
+	path = nasm
+	url = https://github.com/libertine-linux-packages/nasm
