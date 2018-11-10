@@ -288,3 +288,9 @@
 [submodule "nasm"]
 	path = nasm
 	url = https://github.com/libertine-linux-packages/nasm
+[submodule "vim"]
+	path = vim
+	url = https://github.com/libertine-linux-packages/vim
+[submodule "libertine-linux-packages/mlb"]
+	path = libertine-linux-packages/mlb
+	url = https://github.com/libertine-linux/libertine
