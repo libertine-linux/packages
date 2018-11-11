@@ -290,3 +290,15 @@
 [submodule "vim"]
 	path = vim
 	url = https://github.com/libertine-linux-packages/vim
+[submodule "mlb"]
+	path = mlb
+	url = https://github.com/libertine-linux-packages/mlb
+[submodule "dosfstools"]
+	path = dosfstools
+	url = https://github.com/libertine-linux-packages/dosfstools
+[submodule "gptfdisk"]
+	path = gptfdisk
+	url = https://github.com/libertine-linux-packages/gptfdisk
+[submodule "popt"]
+	path = popt
+	url = https://github.com/libertine-linux-packages/popt
