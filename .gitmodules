@@ -302,3 +302,6 @@
 [submodule "popt"]
 	path = popt
 	url = https://github.com/libertine-linux-packages/popt
+[submodule "ipxe"]
+	path = ipxe
+	url = https://github.com/libertine-linux-packages/ipxe
