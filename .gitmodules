@@ -218,10 +218,6 @@
 	path = cmake
 	url = https://github.com/libertine-linux-packages/cmake.git
 	branch = master
-[submodule "gradm"]
-	path = gradm
-	url = https://github.com/libertine-linux-packages/gradm.git
-	branch = master
 [submodule "paxctl"]
 	path = paxctl
 	url = https://github.com/libertine-linux-packages/paxctl.git
