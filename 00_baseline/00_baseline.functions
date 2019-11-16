@@ -20,8 +20,6 @@ depends audit_userspace_control
 
 depends libressl
 
-depends gradm
-
 libertine_compile_00_baseline()
 {
 	:
