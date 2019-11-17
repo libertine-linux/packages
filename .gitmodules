@@ -99,7 +99,7 @@
 	shallow = false
 [submodule "busybox"]
 	path = busybox
-	url = http://github.com/libertine-linux-packages/busybox.git
+	url = https://github.com/libertine-linux-packages/busybox.git
 	branch = master
 	branch = master
 	update = checkout
