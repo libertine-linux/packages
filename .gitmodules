@@ -2,302 +2,697 @@
 	path = PkgConfig
 	url = https://github.com/libertine-linux-packages/PkgConfig.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "acl"]
 	path = acl
 	url = https://github.com/libertine-linux-packages/acl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "attr"]
 	path = attr
 	url = https://github.com/libertine-linux-packages/attr.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "audit_userspace"]
 	path = audit_userspace
 	url = https://github.com/libertine-linux-packages/audit_userspace.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "autoconf"]
 	path = autoconf
 	url = https://github.com/libertine-linux-packages/autoconf.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "automake"]
 	path = automake
 	url = https://github.com/libertine-linux-packages/automake.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "bash"]
 	path = bash
 	url = https://github.com/libertine-linux-packages/bash.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "bc"]
 	path = bc
 	url = https://github.com/libertine-linux-packages/bc.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "binutils"]
 	path = binutils
 	url = https://github.com/libertine-linux-packages/binutils.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "bison"]
 	path = bison
 	url = https://github.com/libertine-linux-packages/bison.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libtool"]
 	path = libtool
 	url = https://github.com/libertine-linux-packages/libtool.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "busybox"]
 	path = busybox
 	url = http://github.com/libertine-linux-packages/busybox.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "ccache"]
 	path = ccache
 	url = https://github.com/libertine-linux-packages/ccache.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "curl"]
 	path = curl
 	url = https://github.com/libertine-linux-packages/curl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "dnsmasq"]
 	path = dnsmasq
 	url = https://github.com/libertine-linux-packages/dnsmasq.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "file"]
 	path = file
 	url = https://github.com/libertine-linux-packages/file.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "flex"]
 	path = flex
 	url = https://github.com/libertine-linux-packages/flex.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "fortify_headers"]
 	path = fortify_headers
 	url = https://github.com/libertine-linux-packages/fortify_headers.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gnuconfig"]
 	path = gnuconfig
 	url = https://github.com/libertine-linux-packages/gnuconfig.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gmp"]
 	path = gmp
 	url = https://github.com/libertine-linux-packages/gmp.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gnulib"]
 	path = gnulib
 	url = https://github.com/libertine-linux-packages/gnulib.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/libertine-linux-packages/gcc.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gnum4"]
 	path = gnum4
 	url = https://github.com/libertine-linux-packages/gnum4.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gnumake"]
 	path = gnumake
 	url = https://github.com/libertine-linux-packages/gnumake.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "kbd"]
 	path = kbd
 	url = https://github.com/libertine-linux-packages/kbd.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "kexec_tools"]
 	path = kexec_tools
 	url = https://github.com/libertine-linux-packages/kexec_tools.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "isl"]
 	path = isl
 	url = https://github.com/libertine-linux-packages/isl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libcap"]
 	path = libcap
 	url = https://github.com/libertine-linux-packages/libcap.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libidn"]
 	path = libidn
 	url = https://github.com/libertine-linux-packages/libidn.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libtirpc"]
 	path = libtirpc
 	url = https://github.com/libertine-linux-packages/libtirpc.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "zlib"]
 	path = zlib
 	url = https://github.com/libertine-linux-packages/zlib.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "xz_utils"]
 	path = xz_utils
 	url = https://github.com/libertine-linux-packages/xz_utils.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "sudo"]
 	path = sudo
 	url = https://github.com/libertine-linux-packages/sudo.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "rsync"]
 	path = rsync
 	url = https://github.com/libertine-linux-packages/rsync.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "pkg_config"]
 	path = pkg_config
 	url = https://github.com/libertine-linux-packages/pkg_config.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "nettle"]
 	path = nettle
 	url = https://github.com/libertine-linux-packages/nettle.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "openssh"]
 	path = openssh
 	url = https://github.com/libertine-linux-packages/openssh.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "musl_ldconfig"]
 	path = musl_ldconfig
 	url = https://github.com/libertine-linux-packages/musl_ldconfig.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "mpc"]
 	path = mpc
 	url = https://github.com/libertine-linux-packages/mpc.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "mpfr"]
 	path = mpfr
 	url = https://github.com/libertine-linux-packages/mpfr.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "tz"]
 	path = tz
 	url = https://github.com/libertine-linux-packages/tz.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "luajit"]
 	path = luajit
 	url = https://github.com/libertine-linux-packages/luajit.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "slibtool"]
 	path = slibtool
 	url = https://github.com/libertine-linux-packages/slibtool.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "musl"]
 	path = musl
 	url = https://github.com/libertine-linux-packages/musl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libressl"]
 	path = libressl
 	url = https://github.com/libertine-linux-packages/libressl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "perl"]
 	path = perl
 	url = https://github.com/libertine-linux-packages/perl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "musl_cross_make"]
 	path = musl_cross_make
 	url = https://github.com/libertine-linux-packages/musl_cross_make.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "netbsd_src"]
 	path = netbsd_src
 	url = https://github.com/libertine-linux-packages/netbsd_src.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libertine_filesystem_hosts"]
 	path = libertine_filesystem_hosts
 	url = https://github.com/libertine-linux-packages/libertine_filesystem_hosts.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libertine_filesystem_root_password"]
 	path = libertine_filesystem_root_password
 	url = https://github.com/libertine-linux-packages/libertine_filesystem_root_password.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libertine_filesystem"]
 	path = libertine_filesystem
 	url = https://github.com/libertine-linux-packages/libertine_filesystem.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "linux"]
 	path = linux
 	url = https://github.com/libertine-linux-packages/linux.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "util_linux"]
 	path = util_linux
 	url = https://github.com/libertine-linux-packages/util_linux.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "reflex"]
 	path = reflex
 	url = https://github.com/libertine-linux-packages/reflex.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "cmake"]
 	path = cmake
 	url = https://github.com/libertine-linux-packages/cmake.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "paxctl"]
 	path = paxctl
 	url = https://github.com/libertine-linux-packages/paxctl.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "python_2_7"]
 	path = python_2_7
 	url = https://github.com/libertine-linux-packages/python_2_7.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "go"]
 	path = go
 	url = https://github.com/libertine-linux-packages/go.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "nodejs"]
 	path = nodejs
 	url = https://github.com/libertine-linux-packages/nodejs.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "git"]
 	path = git
 	url = https://github.com/libertine-linux-packages/git.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "expat"]
 	path = expat
 	url = https://github.com/libertine-linux-packages/expat.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "influxdb"]
 	path = influxdb
 	url = https://github.com/libertine-linux-packages/influxdb.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "grafana"]
 	path = grafana
 	url = https://github.com/libertine-linux-packages/grafana.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libpcre"]
 	path = libpcre
 	url = https://github.com/libertine-linux-packages/libpcre.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "ReOpenLDAP"]
 	path = ReOpenLDAP
 	url = https://github.com/libertine-linux-packages/ReOpenLDAP.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "dpdk"]
 	path = dpdk
 	url = https://github.com/libertine-linux-packages/dpdk.git
 	branch = master
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libnuma"]
 	path = libnuma
 	url = https://github.com/libertine-linux-packages/libnuma.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "libsodium"]
 	path = libsodium
 	url = https://github.com/libertine-linux-packages/libsodium.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "llvm_4_0"]
 	path = llvm_4_0
 	url = https://github.com/libertine-linux-packages/llvm_4_0.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "rpm"]
 	path = rpm
 	url = https://github.com/libertine-linux-packages/rpm.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "ofed_mellanox"]
 	path = ofed_mellanox
 	url = https://github.com/libertine-linux-packages/ofed_mellanox.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "ucx"]
 	path = ucx
 	url = https://github.com/libertine-linux-packages/ucx.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "nasm"]
 	path = nasm
 	url = https://github.com/libertine-linux-packages/nasm
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "vim"]
 	path = vim
 	url = https://github.com/libertine-linux-packages/vim
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "mlb"]
 	path = mlb
 	url = https://github.com/libertine-linux-packages/mlb
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "dosfstools"]
 	path = dosfstools
 	url = https://github.com/libertine-linux-packages/dosfstools
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "gptfdisk"]
 	path = gptfdisk
 	url = https://github.com/libertine-linux-packages/gptfdisk
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "popt"]
 	path = popt
 	url = https://github.com/libertine-linux-packages/popt
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
 [submodule "ipxe"]
 	path = ipxe
 	url = https://github.com/libertine-linux-packages/ipxe
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
