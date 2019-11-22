@@ -141,6 +141,9 @@ checkout_submodules_to_master_main()
 		if [ ! -s "$folder"/.git ]; then
 			continue
 		fi
+		if [ -L "$folder" ]; then
+			continue
+		fi
 
 		printf 'Checking out submodule %s\n' "$folder" 1>&2
 		git -C "$folder" checkout master
