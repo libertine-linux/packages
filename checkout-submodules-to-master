@@ -7,12 +7,11 @@ set -e
 set -u
 set -f
 
+program_name="checkout-submodules-to-master"
+
 _program_path_find()
 {
-	if [ "${_program_fattening_program_path+set}" = 'set' ]; then
-		printf '%s\n' "$_program_fattening_program_path"
-
-	elif [ "${0%/*}" = "$0" ]; then
+	if [ "${0%/*}" = "$0" ]; then
 
 		# We've been invoked by the interpreter as, say, bash program
 		if [ -r "$0" ]; then
@@ -49,13 +48,46 @@ _program_path_find()
 			)
 		elif command -v readlink 1>/dev/null 2>/dev/null; then
 			(
-				scriptPath="$0"
+				local recursionDepth=0
+				_program_path_resolve_symlinks_recursively()
+				{
+					local unresolvedPath="$1"
+					
+					recursionDepth=$((recursionDepth + 1))
+					
+					if [ $recursionDepth -gt 10 ]; then
+						printf '%s\n' 'Recursion to depths greater than 10 is not allowed when resolving links.'
+						return 1
+					fi
+					
+					local potentialLinkDestination="$(readlink -- "$unresolvedPath")"
+					
+					if [ -z "$potentialLinkDestination" ]; then
+						scriptPath="$unresolvedPath"
+						return 0
+					fi
+					local linkDestination="$potentialLinkDestination"
+					local parentFolderPath="${unresolvedPath%/*}"
+					
+					if [ "$parentFolderPath" = "$unresolvedPath" ]; then
+						_program_path_resolve_symlinks_recursively "$linkDestination"
+					else
+						case "$linkDestination" in
+														
+							/*)
+								_program_path_resolve_symlinks_recursively "$linkDestination"
+							;;
+							
+							*)
+								_program_path_resolve_symlinks_recursively "$parentFolderPath"/"$linkDestination"
+							;;
+							
+						esac
+					fi
+				}
 
-				while [ -L "$scriptPath" ]
-				do
-					_program_path_find_parentPath
-					scriptPath="$(readlink "$scriptPath")"
-				done
+				scriptPath="$0"
+				_program_path_resolve_symlinks_recursively "$scriptPath"
 
 				_program_path_find_parentPath
 				pwd -P
@@ -73,21 +105,53 @@ _program_path_find()
 	fi
 }
 
-main()
+fail()
 {
-	cd "$(_program_path_find)" 1>/dev/null 2>/dev/null
+	local exitCode="$1"
+	local message="$2"
+	
+	printf '%s:FAIL:%s\n' "$program_name" "$message" 1>&2
+	exit $exitCode
+}
 
-	grep 'submodule' '.gitmodules' | awk -F'"' '{print $2}' | while IFS='' read -r submodule
+depends()
+{
+	local binary
+	for binary in "$@"
 	do
-		cd "$submodule" 1>/dev/null 2>/dev/null
-		
-			printf 'Checking out submodule %s\n' "$submodule" 1>&2
-			git checkout master 1>&2
-			
-			printf '\n\n' 1>&2
-		
-		cd - 1>/dev/null 2>/dev/null
+		if ! command -v "$binary" 1>/dev/null 2>/dev/null; then
+			local EX_OSFILE=72
+			fail $EX_OSFILE "The binary `$binary` is not on the PATH"
+		fi
 	done
 }
 
-main "$@"
+depends git
+checkout_submodules_to_master_main()
+{
+	cd "$(_program_path_find)" 1>/dev/null 2>/dev/null
+
+	git submodule update --init --recursive
+
+	local folder
+	set +f
+	for folder in *
+	do
+		set -f
+		if [ ! -s "$folder"/.git ]; then
+			continue
+		fi
+
+		printf 'Checking out submodule %s\n' "$folder" 1>&2
+		git -C "$folder" checkout master
+
+		printf 'Repairing submodule (reset) %s in case of interrupted clone\n' "$folder" 1>&2
+		git -C "$folder" reset HEAD -- .
+
+		printf 'Repairing submodule (checkout) %s in case of interrupted clone\n' "$folder" 1>&2
+		git -C "$folder" checkout -- .
+	done
+	set -f
+}
+
+checkout_submodules_to_master_main "$@"
