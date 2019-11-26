@@ -687,3 +687,11 @@
 	ignore = none
 	fetchRecurseSubmodules = true
 	shallow = false
+[submodule "pax"]
+	path = pax
+	url = https://github.com/libertine-linux-packages/pax.git
+	branch = master
+	update = checkout
+	ignore = none
+	fetchRecurseSubmodules = true
+	shallow = false
