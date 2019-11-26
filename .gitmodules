@@ -178,15 +178,6 @@
 	ignore = none
 	fetchRecurseSubmodules = true
 	shallow = false
-[submodule "gnulib"]
-	path = gnulib
-	url = https://github.com/libertine-linux-packages/gnulib.git
-	branch = master
-	branch = master
-	update = checkout
-	ignore = none
-	fetchRecurseSubmodules = true
-	shallow = false
 [submodule "gcc"]
 	path = gcc
 	url = https://github.com/libertine-linux-packages/gcc.git
