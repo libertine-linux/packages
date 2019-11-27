@@ -160,7 +160,10 @@ checkout_submodules_to_master_main()
 			local upstreamGitUrl
 			while IFS="$tab" read -r submodule upstreamGitUrl
 			do
-				git -C "$folder"/"$submodule" remote add upstream "$upstreamGitUrl"
+				if [ ! -d "$folder"/"$submodule" ]; then
+					continue
+				fi
+				git -C "$folder"/"$submodule" remote add upstream "$upstreamGitUrl" || true
 			done <"$folder"/.libertine-linux-upstream
 		fi
 	done
