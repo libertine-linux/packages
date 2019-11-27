@@ -153,6 +153,16 @@ checkout_submodules_to_master_main()
 
 		printf 'Repairing submodule (checkout) %s in case of interrupted clone\n' "$folder" 1>&2
 		git -C "$folder" checkout -- .
+
+		if [ -s "$folder"/.libertine-linux-upstream ]; then
+			local tab='	'
+			local submodule
+			local upstreamGitUrl
+			while IFS="$tab" read -r submodule upstreamGitUrl
+			do
+				git -C "$folder"/"$submodule" remote add upstream "$upstreamGitUrl"
+			done <"$folder"/.libertine-linux-upstream
+		fi
 	done
 	set -f
 }
